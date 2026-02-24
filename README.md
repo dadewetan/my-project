@@ -1,26 +1,36 @@
-\# Hello World React App
+My React Portfolio Starter
 
 
 
-This is my first React project built using Vite.
+Live Site: https://dadewetan.github.io/my-project/
 
 
 
-\## Features
+This project is a React application built using Vite and deployed with GitHub Pages.
 
 
 
-\* React components
-
-\* JSX rendering
-
-\* Hot reload development server
-
-\* Organized project structure
+Purpose
 
 
 
-\## Technologies Used
+I created this project as part of my journey learning modern frontend development, Git, and deployment workflows.
+
+It demonstrates my ability to:
+
+
+
+\* Use React components
+
+\* Configure a build tool (Vite)
+
+\* Manage version control with Git
+
+\* Deploy a live website
+
+
+
+Technologies Used
 
 
 
@@ -34,25 +44,51 @@ This is my first React project built using Vite.
 
 \* CSS3
 
-
-
-\## How to Run Locally
-
-
-
-1\. Clone the repository
-
-2\. Install dependencies:
-
-&nbsp;  npm install
-
-3\. Start the development server:
-
-&nbsp;  npm run dev
+\* Git \& GitHub Pages
 
 
 
-This project was created as part of my journey learning modern frontend development and Git/GitHub workflow.
+Running Locally
+
+
+
+Clone the repository:
+
+
+
+git clone https://github.com/dadewetan/my-project.git
+
+
+
+Install dependencies:
+
+
+
+npm install
+
+
+
+Start development server:
+
+
+
+npm run dev
+
+
+
+Deployment
+
+
+
+The site is automatically built and deployed using the gh-pages branch.
+
+
+
+---
+
+
+
+Author: dadewetan
 
 
 
