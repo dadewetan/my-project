@@ -21,6 +21,30 @@ function App() {
       >
         View My GitHub
       </a>
+
+      <hr />
+
+      <h2>Projects</h2>
+
+      <div className="projects">
+        <div className="project-card">
+          <h3>React Portfolio Site</h3>
+          <p>
+            A personal portfolio website built with React and deployed using
+            GitHub Pages.
+          </p>
+          <a href="https://dadewetan.github.io/my-project/" target="_blank">Live Site</a>
+        </div>
+
+        <div className="project-card">
+          <h3>GitHub Repository</h3>
+          <p>
+            The source code for this website including commit history and
+            deployment configuration.
+          </p>
+          <a href="https://github.com/dadewetan/my-project" target="_blank">View Code</a>
+        </div>
+      </div>
     </div>
   )
 }
