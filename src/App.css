@@ -7,7 +7,9 @@ body {
 
 .container {
   text-align: center;
-  margin-top: 120px;
+  padding: 80px 20px 120px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 h1 {
@@ -51,11 +53,20 @@ p {
 }
 
 .project-card {
-  background: #1e293b;
-  padding: 20px;
-  border-radius: 12px;
-  width: 260px;
+  background: linear-gradient(145deg, #1e293b, #0f172a);
+  padding: 22px;
+  border-radius: 14px;
+  width: 280px;
   text-align: left;
+  transition: all 0.25s ease;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.6);
+  border: 1px solid rgba(147,197,253,0.6);
 }
 
 .project-card h3 {
