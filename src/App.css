@@ -101,3 +101,21 @@ p {
   text-decoration: none;
   font-weight: bold;
 }
+
+/* spacing before Projects section */
+.projects-section {
+  margin-top: 100px;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 34px;
+  color: #e2e8f0;
+}
+
+/* fix card paragraph spacing */
+.project-card p {
+  max-width: none;
+  margin: 10px 0 0 0;
+}
