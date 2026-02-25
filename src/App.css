@@ -30,18 +30,39 @@ p {
 
 .button {
   display: inline-block;
-  margin-top: 25px;
-  padding: 12px 22px;
+  padding: 10px 16px;
+  min-width: 170px;
+  text-align: center;
   background: white;
   color: #1e3a8a;
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  transition: 0.3s;
+  border-radius: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 
 .button:hover {
+  transform: translateY(-2px);
   background: #e2e8f0;
+}
+
+.cta-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+
+.button.button-outline {
+  background: rgba(255, 255, 255, 0.10);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.button.button-outline:hover {
+  background: rgba(255, 255, 255, 0.20);
 }
 
 .projects {
